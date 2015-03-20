@@ -1,9 +1,14 @@
-# exfacebook
+# fado
+
+A nice, modern node.js interface for facebook.
+
+"Fado (Portuguese pronunciation: [ˈfaðu], "destiny, fate") is a music genre which can be traced to the 1820s in Portugal, but probably with much earlier origins."
+[Wikipedia](http://en.wikipedia.org/wiki/Fado)
 
 ## Examples
 
 
-    var fb = require('exfacebook');
+    var fb = require('fado');
     fb.configure(appId, secret, appNamespace);
     var req = fb.love(<token>, <songUrl>)
 
@@ -25,5 +30,3 @@
     });
 
     req.send();
-
-
